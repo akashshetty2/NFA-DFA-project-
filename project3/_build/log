@@ -1,0 +1,125 @@
+# dune runtest -f
+# OCAMLPARAM: unset
+# Workspace root: /Users/akashshetty/cmsc330spring20/project3
+$ /usr/bin/getconf _NPROCESSORS_ONLN > /var/folders/m4/zm4cy23d50111ng4y58_96mh0000gn/T/dune402328.output 2> /dev/null
+# Auto-detected concurrency: 4
+# disable binary cache
+$ /Users/akashshetty/.opam/4.07.0/bin/ocamlc.opt -config > /var/folders/m4/zm4cy23d50111ng4y58_96mh0000gn/T/dunea3c835.output
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Release
+#  ; merlin = true
+#  ; for_host = None
+#  ; fdo_target_exe = None
+#  ; build_dir = "default"
+#  ;
+#  toplevel_path = Some External "/Users/akashshetty/.opam/4.07.0/lib/toplevel"
+#  ; ocaml_bin = External "/Users/akashshetty/.opam/4.07.0/bin"
+#  ; ocaml = External "/Users/akashshetty/.opam/4.07.0/bin/ocaml"
+#  ; ocamlc = External "/Users/akashshetty/.opam/4.07.0/bin/ocamlc.opt"
+#  ;
+#  ocamlopt = Some External "/Users/akashshetty/.opam/4.07.0/bin/ocamlopt.opt"
+#  ; ocamldep = External "/Users/akashshetty/.opam/4.07.0/bin/ocamldep.opt"
+#  ; ocamlmklib = External "/Users/akashshetty/.opam/4.07.0/bin/ocamlmklib.opt"
+#  ;
+#  env =
+#    map
+#      { "DUNE_CONFIGURATOR" : "/Users/akashshetty/.opam/4.07.0/bin/ocamlc.opt"
+#      ; "INSIDE_DUNE" : "1"
+#      ;
+#      "MANPATH" :
+#        "/Users/akashshetty/cmsc330spring20/project3/_build/install/default/bin"
+#      ;
+#      "OCAMLFIND_IGNORE_DUPS_IN" :
+#        "/Users/akashshetty/cmsc330spring20/project3/_build/install/default/lib"
+#      ;
+#      "OCAMLPATH" :
+#        "/Users/akashshetty/cmsc330spring20/project3/_build/install/default/lib"
+#      ; "OCAML_COLOR" : "always"
+#      ; "OPAMCOLOR" : "always"
+#      }
+#  ; findlib_path = [ External "/Users/akashshetty/.opam/4.07.0/lib" ]
+#  ; arch_sixtyfour = true
+#  ; natdynlink_supported = true
+#  ; supports_shared_libraries = true
+#  ; opam_vars = map {}
+#  ;
+#  ocaml_config =
+#    { version = "4.07.0"
+#    ; standard_library_default = "/Users/akashshetty/.opam/4.07.0/lib/ocaml"
+#    ; standard_library = "/Users/akashshetty/.opam/4.07.0/lib/ocaml"
+#    ; standard_runtime = "/Users/akashshetty/.opam/4.07.0/bin/ocamlrun"
+#    ; ccomp_type = "cc"
+#    ; c_compiler = "cc"
+#    ; ocamlc_cflags = [ "-O2"; "-fno-strict-aliasing"; "-fwrapv" ]
+#    ; ocamlopt_cflags = [ "-O2"; "-fno-strict-aliasing"; "-fwrapv" ]
+#    ;
+#    bytecomp_c_compiler =
+#      [ "cc"
+#      ; "-O2"
+#      ; "-fno-strict-aliasing"
+#      ; "-fwrapv"
+#      ; "-D_FILE_OFFSET_BITS=64"
+#      ; "-D_REENTRANT"
+#      ]
+#    ; bytecomp_c_libraries = [ "-lpthread" ]
+#    ;
+#    native_c_compiler =
+#      [ "cc"
+#      ; "-O2"
+#      ; "-fno-strict-aliasing"
+#      ; "-fwrapv"
+#      ; "-D_FILE_OFFSET_BITS=64"
+#      ; "-D_REENTRANT"
+#      ]
+#    ; native_c_libraries = []
+#    ; cc_profile = [ "-pg" ]
+#    ; architecture = "amd64"
+#    ; model = "default"
+#    ; int_size = 63
+#    ; word_size = 64
+#    ; system = "macosx"
+#    ; asm = [ "clang"; "-arch"; "x86_64"; "-Wno-trigraphs"; "-c" ]
+#    ; asm_cfi_supported = true
+#    ; with_frame_pointers = false
+#    ; ext_exe = ""
+#    ; ext_obj = ".o"
+#    ; ext_asm = ".s"
+#    ; ext_lib = ".a"
+#    ; ext_dll = ".so"
+#    ; os_type = "Unix"
+#    ; default_executable_name = "a.out"
+#    ; systhread_supported = true
+#    ; host = "x86_64-apple-darwin19.0.0"
+#    ; target = "x86_64-apple-darwin19.0.0"
+#    ; profiling = true
+#    ; flambda = false
+#    ; spacetime = false
+#    ; safe_string = false
+#    ; exec_magic_number = "Caml1999X023"
+#    ; cmi_magic_number = "Caml1999I023"
+#    ; cmo_magic_number = "Caml1999O023"
+#    ; cma_magic_number = "Caml1999A023"
+#    ; cmx_magic_number = "Caml1999Y023"
+#    ; cmxa_magic_number = "Caml1999Z023"
+#    ; ast_impl_magic_number = "Caml1999M023"
+#    ; ast_intf_magic_number = "Caml1999N023"
+#    ; cmxs_magic_number = "Caml1999D023"
+#    ; cmt_magic_number = "Caml1999T023"
+#    ; natdynlink_supported = true
+#    ; supports_shared_libraries = true
+#    ; windows_unicode = false
+#    }
+#  ;
+#  which =
+#    map
+#      { "ocaml" : Some External "/Users/akashshetty/.opam/4.07.0/bin/ocaml"
+#      ;
+#      "ocamlc" :
+#        Some External "/Users/akashshetty/.opam/4.07.0/bin/ocamlc.opt"
+#      ;
+#      "ocamlobjinfo" :
+#        Some External "/Users/akashshetty/.opam/4.07.0/bin/ocamlobjinfo.opt"
+#      }
+#  }
