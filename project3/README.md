@@ -1,8 +1,4 @@
-# Project 3: Regular Expression Engine
 
-Due: April 6 (Late April 7) at 11:59:59 PM
-
-Points: 35P/35SP/30S
 
 ## Overview
 
@@ -299,18 +295,4 @@ Precedence | Operator | Description
 
 Also, note that all the binary operators are **right associative**.
 
-## Academic Integrity
-Please **carefully read** the academic honesty section of the course syllabus. **Any evidence** of impermissible cooperation on projects, use of disallowed materials or resources, or unauthorized use of computer accounts, **will** be submitted to the Student Honor Council, which could result in an XF for the course, or suspension or expulsion from the University. Be sure you understand what you are and what you are not permitted to do in regards to academic integrity when it comes to project assignments. These policies apply to all students, and the Student Honor Council does not consider lack of knowledge of the policies to be a defense for violating them. Full information is found in the course syllabus, which you should review before starting.
 
-[list doc]: https://caml.inria.fr/pub/docs/manual-ocaml/libref/List.html
-[string doc]: https://caml.inria.fr/pub/docs/manual-ocaml/libref/String.html
-[modules doc]: https://realworldocaml.org/v1/en/html/files-modules-and-programs.html
-[subset construct]: https://github.com/anwarmamat/cmsc330spring19-public/blob/master/notes/subset.pdf
-[lecture notes]: https://www.cs.umd.edu/class/spring2019/cmsc330/lectures/02-automata.pdf
-[pervasives doc]: https://caml.inria.fr/pub/docs/manual-ocaml/libref/Stdlib.html
-[git instructions]: ../git_cheatsheet.md
-[wikipedia inorder traversal]: https://en.wikipedia.org/wiki/Tree_traversal#In-order
-[submit server]: https://submit.cs.umd.edu
-[web submit link]: image-resources/web_submit.jpg
-[web upload example]: image-resources/web_upload.jpg
-[sets]: ./dep/sets
